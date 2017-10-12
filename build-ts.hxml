@@ -1,0 +1,13 @@
+-main Main
+ -cp src
+ -dce full 
+ -D analyzer
+ -D analyzer-module
+
+-D use-rtti-doc
+-lib hxtsdgen
+-lib haxe-loader  
+-lib thx.core
+
+-js _ts.js
+-cmd mv _ts.d.ts build.hxml.d.ts

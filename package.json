@@ -1,0 +1,9 @@
+{
+  "name": "haxe-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "haxe-loader": "^0.4.1"
+  }
+}

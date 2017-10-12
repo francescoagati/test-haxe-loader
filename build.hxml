@@ -1,0 +1,12 @@
+-main Main
+-js percureo.js    
+-lib haxe-loader  
+-lib thx.core
+
+ -cp src
+ -dce full 
+ -D analyzer
+ -D analyzer-module
+
+
+
